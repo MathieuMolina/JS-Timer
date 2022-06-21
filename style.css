@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(230, 226, 226);
+    border: 5px solid black
+}
+
+#chrono{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 35px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#strt{
+    background-color: green;
+    color: white;
+}
+
+#stp{
+    background-color: red;
+    color: white;
+
+}
+
+#rst{
+    background-color: purple;
+    color: white;
+
+}
